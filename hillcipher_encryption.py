@@ -1,5 +1,5 @@
-plaintext=input("enter the plaintext")
-n=int(input("enter the size of square matrix"))
+plaintext=input("enter the plaintext : ")
+n=int(input("enter the size of square matrix : "))
 
 key=[]
 
@@ -52,7 +52,6 @@ for block in cipher:
 
         ciphertext+=chr(x+ord('A'))
 
-print("the cipher text is : ",cipher)
-
+print("the cipher text is : ",ciphertext)
 
 
